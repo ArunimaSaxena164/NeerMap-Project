@@ -1,0 +1,67 @@
+.safety-head {
+  color: #032e56;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  opacity: 0.8;
+}
+.pointhead-safe {
+  font-family: "Josefin Sans";
+  color: #032e56;
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.point-how span {
+  color: rgba(3, 46, 86, 1);
+}
+.back-safe {
+  background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+  border-radius: 20px;
+  padding: 60px 20px;
+  box-shadow: 2px 2px 10px #3d91b8;
+}
+.safe-img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgba(3, 46, 86, 0.3);
+}
+
+.note-text {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.point-how {
+  color: rgba(3, 46, 86, 0.6);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .back-safe {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .pointhead-safe {
+    font-size: 18px;
+  }
+
+  .point-how {
+    font-size: 16px;
+  }
+
+  .safe-img {
+    max-width: 70%;
+    margin-bottom: 1.5em;
+  }
+
+  .note-text {
+    text-align: center;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.abouthead {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: #032e56;
+}
+.aboutpara {
+  margin-top: 1.5em;
+  width: 75%;
+  margin-left: 12.5%;
+  text-align: center;
+  font-size: 1.1em;
+  color: #032e56;
+  opacity: 0.8;
+  margin-bottom: 2em;
+  font-weight: 500;
+}

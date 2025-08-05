@@ -1,0 +1,54 @@
+.mission {
+  padding-left: 2em;
+  margin-bottom: 2em;
+}
+
+.mission p {
+  color: #032e56;
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.mission li {
+  color: #032e56;
+  opacity: 0.9;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 2em;
+  text-align: left;
+}
+
+.mission-img {
+  border-radius: 15px;
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.backmission {
+  background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 50%, #fff 100%);
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #3d91b8;
+  padding: 2em;
+}
+
+@media (max-width: 768px) {
+  .mission {
+    padding: 0 1.5em;
+    text-align: center;
+  }
+
+  .mission li {
+    text-align: center;
+  }
+
+  .backmission {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5em 1em;
+    border-radius: 10px;
+  }
+}

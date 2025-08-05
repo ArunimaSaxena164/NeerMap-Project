@@ -1,0 +1,38 @@
+.help-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+ background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+   box-shadow: 2px 2px 10px #3d91b8;
+  border-radius: 10px;
+  color: #032e56;
+  padding: 2em;
+}
+
+.help-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #032e56;
+  font-family: "Josefin Sans";
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.help-container section {
+  margin-bottom: 1.5rem;
+}
+
+.help-container h2 {
+  color: #032e56;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.help-container p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #032e56;
+  opacity: 0.8;
+}

@@ -1,0 +1,22 @@
+.res-inp input,
+.res-inp select,
+.res-inp textarea {
+  border: 2px solid #97d4ea !important;
+  border-radius: 8px !important;
+  padding: 10px;
+  width: 250px;
+  font-weight: 500;
+  color: #032e56;
+  font-family: inherit;
+  outline: none;
+  resize: vertical; 
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.res-inp input:focus,
+.res-inp select:focus,
+.res-inp textarea:focus {
+  border-color: #3fa6d1;
+  box-shadow: 0 0 0 2px rgba(151, 212, 234, 0.4);
+}

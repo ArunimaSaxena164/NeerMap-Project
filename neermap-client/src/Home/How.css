@@ -1,0 +1,53 @@
+.title-how {
+  color: #032e56;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  opacity: 0.8;
+}
+.head-how {
+  color: #032e56;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+.head-how i {
+  font-size: 0.95rem;
+  vertical-align: middle;
+  font-weight: 800;
+}
+.point-how {
+  color: rgba(3, 46, 86, 0.6);
+  font-weight: 600;
+}
+.back-how {
+  background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+.back-how:hover {
+  box-shadow: 2px 2px 6px #3d91b8;
+}
+@media (max-width: 768px) {
+  .back-how {
+    padding: 18px;
+  }
+
+  .head-how {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .point-how {
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+  .how-cards {
+    text-align: center;
+  }
+}

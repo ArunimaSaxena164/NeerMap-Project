@@ -1,0 +1,10 @@
+.mapwrapper
+{
+      max-width: 900px;
+  margin: 0 auto;    
+  border: 2px solid #97d4ea;
+  border-radius: 10px;
+  overflow: hidden;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height:500px;
+}

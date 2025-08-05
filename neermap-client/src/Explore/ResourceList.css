@@ -1,0 +1,30 @@
+.drop
+{
+    background: linear-gradient(to right,  #e0f4fb 0% ,#f4fcff 50%, white 100%);
+     color: #032e56;
+     font-weight: 500;
+     font-size: 1.1em;
+     border-radius: 12px;
+     border:1px solid #97d4ea;
+}
+.headinghero
+{
+    color: #032e56;
+    font-size: 1.8em;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.optionstyle
+{
+     background-color: #f4fcff;
+     border:0.2px solid white;
+     color: #032e56;
+     opacity: 0.1;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #97d4ea;
+  border-radius: 10px;
+}

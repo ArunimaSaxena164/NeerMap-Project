@@ -1,0 +1,132 @@
+.headcomm {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: #032e56;
+  margin-top: 1.2em;
+  font-size: 40px;
+  margin-bottom: 1.2em;
+}
+.intro {
+  margin-top: 1.8em;
+  width: 75%;
+  margin-left: 12.5%;
+  text-align: center;
+  font-size: 1.15em;
+  color: #032e56;
+  opacity: 0.8;
+  margin-bottom: 4em;
+  font-weight: 500;
+}
+.guidelines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+.guidelines div {
+  background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #3d91b8;
+  padding-bottom: 2em;
+}
+.guidelines div h2 {
+  color: #032e56;
+  margin-top: 1.1em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  opacity: 0.9;
+  font-family: "Josefin Sans";
+  margin-bottom: 1.5em;
+}
+.guidelines div ul li {
+  color: #032e56;
+  opacity: 0.9;
+  margin-left: 2em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  margin-right:2em;
+}
+.contribute
+{
+    margin-bottom: 4em;
+}
+.contribute h2 {
+  color: #032e56;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  opacity: 0.9;
+  font-family: "Josefin Sans";
+  margin-bottom: 1.1em;
+}
+.contribute p {
+  width: 75%;
+  margin-left: 12.5%;
+  text-align: center;
+  font-size: 1.15em;
+  color: #032e56;
+  opacity: 0.8;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+.buttoncontribute {
+  background-color: #032e56;
+  color: #eaf8fb;
+  border: none;
+  height: 45px;
+  opacity: 0.9;
+  border-radius: 7px;
+  transition: transform 0.2s ease;
+  font-weight: 600;
+}
+.buttoncontribute:hover {
+  transform: scale(1.05);
+  color: white;
+}
+.contribute {
+  text-align: center;
+}
+.future-features {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7em;
+}
+.future-features div {
+  background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #3d91b8;
+  padding-bottom: 3em;
+}
+.future-features div h2 {
+  color: #032e56;
+  margin-top: 1.1em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  opacity: 0.9;
+  font-family: "Josefin Sans";
+  margin-bottom: 1.5em;
+}
+.future-features div ul li {
+  color: #032e56;
+  opacity: 0.9;
+  margin-left: 2em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  margin-right: 2em;
+}

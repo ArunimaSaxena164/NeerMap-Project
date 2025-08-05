@@ -1,0 +1,36 @@
+.privacy-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+background: linear-gradient(to right, #cdecf6 0%, #e0f4fb 100%);
+   box-shadow: 2px 2px 10px #3d91b8;
+  border-radius: 10px;
+}
+
+.privacy-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color:#032e56;
+  font-weight: 600;
+  font-family: 'Josefin Sans';
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.privacy-container section {
+  margin-bottom: 1.5rem;
+}
+
+.privacy-container h2 {
+  color: #032e56;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+.privacy-container p {
+  line-height: 1.5;
+  color: #032e56;
+  font-size: 13px;
+  opacity: 0.8;
+}
