@@ -25,7 +25,7 @@ mongoose
 // Middleware
 app.use(
   cors({
-    origin: "https://neer-map-project.vercel.app/", // Only allow your frontend
+    origin: "https://neer-map-project.vercel.app", // Only allow your frontend
     credentials: true, // Enable sending/receiving cookies (sessions)
   })
 );
