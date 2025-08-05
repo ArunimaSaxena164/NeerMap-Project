@@ -8,13 +8,15 @@ const passport = require("passport");
 const MongoStore = require("connect-mongo");
 const User = require("./models/User");
 const resourceRoutes = require("./routes/resourcesRoutes.js");
-const authRoutes = require("./routes/auth");
+const authRoutes = require("./routes/auth.js");
 const waterResourceRoutes = require("./routes/waterResources.js");
 const searchResourcesRoute=require("./routes/searchResources.js");
 const findResourceRoute=require("./routes/findResourceRoute.js");
 const reviewRoutes = require("./routes/reviews.js");
 const reportRoute=require("./routes/report.js");
 const app = express();
+app.set('trust proxy', 1);
+
 const PORT = process.env.PORT||3000;
 // MongoDB connection
 mongoose
@@ -22,6 +24,8 @@ mongoose
   .then(() => console.log("connected to db"))
   .catch((err) => console.log("error in connecting to db", err));
 
+
+  
 // Middleware
 app.use(
   cors({
