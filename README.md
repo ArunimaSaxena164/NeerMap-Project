@@ -7,7 +7,7 @@ The platform is **community-driven** — users can contribute resources, review 
 All application content (except user-entered resource details) is also available in **Hindi**, making it more accessible.  
 
 🔗 **Live Demo:** [neer-map-project.vercel.app](https://neer-map-project.vercel.app)  
-
+🔗 **Video Walkthrough (2 min 40 sec):** [Watch on YouTube](https://youtu.be/aeV8X0ZtJB0)
 ---
 
 ## ✨ Features  
