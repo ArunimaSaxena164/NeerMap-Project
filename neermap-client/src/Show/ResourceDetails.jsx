@@ -125,8 +125,7 @@ const ResourceDetails = () => {
           fontSize: "40px",
         }}
       >
-        {" "}
-        Page not found!
+        Loading...
       </p>
     );
   }

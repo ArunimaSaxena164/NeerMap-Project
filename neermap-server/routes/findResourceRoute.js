@@ -24,7 +24,7 @@ router.delete("/:id", isAuthenticated, async (req, res) => {
       return res.status(403).json({ error: "Unauthorized" });
     }
 
-    await Resource.findByIdAndDelete(req.params.id); // <-- This line changes!
+    await Resource.findByIdAndDelete(req.params.id); 
     res.json({ message: "Resource deleted successfully" });
   } catch (err) {
     console.error("Delete error:", err);
