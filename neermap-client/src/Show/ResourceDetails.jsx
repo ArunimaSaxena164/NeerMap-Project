@@ -192,13 +192,13 @@ const handleFlag = async (resourceId) => {
             <strong>{t("city")}:</strong> {resource.city}
           </p>
           <p>
-            <strong>{t("typ")}:</strong> {resource.type}
+            <strong>{t("Type")}:</strong> {resource.type}
           </p>
           <p>
-            <strong>{t("nat")}:</strong> {resource.nature}
+            <strong>{t("Nature")}:</strong> {resource.nature}
           </p>
           <p>
-            <strong>{t("suitch")}:</strong>{" "}
+            <strong>{t("Suitability")}:</strong>{" "}
             {Array.isArray(resource.suitability)
               ? resource.suitability.join(", ")
               : resource.suitability}
@@ -208,7 +208,7 @@ const handleFlag = async (resourceId) => {
             {resource.description || "No description"}
           </p>
           <p>
-            <strong>{t("selcoord")}</strong> {position[0]}, {position[1]}
+            <strong>{t("Coordinates")}</strong> {position[0]}, {position[1]}
           </p>
         </div>
 

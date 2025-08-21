@@ -186,5 +186,9 @@
   "revsub":"Submit Review",
   "cancel":"Cancel",
   "norat":"No ratings yet",
-  "guidadd":"Click Add Review to add Reviews"
+  "guidadd":"Click Add Review to add Reviews",
+  "Type":"Type",
+  "Nature":"Nature",
+  "Suitability":"Suitability",
+  "Coordinates":"Coordinates"
 }
