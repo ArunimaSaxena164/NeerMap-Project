@@ -83,3 +83,6 @@ Step-by-step search flow:
 - **Backend** → Render  
 
 ---
+## Disclaimer
+The data shown in **NeerMap (नीरमैप)** is **dummy/demo data** used only for project demonstration purposes.  
+It does not represent real water sources or government datasets.
